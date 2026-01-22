@@ -25,31 +25,20 @@
 
 
 #Bài 3:
-#tong = 0; tich = 1; tongmu = 0
-#n = int(input())
-#for i in range(1,n+1):
-#    tong += i 
-#print(tong)
-#for i in range(1,n+1):
-#    tich *= i
-#print(tich)
-#for i in range(1,n+1):
-#    tongmu += i**2
-#print(tongmu)
+#tong=0;tich=1;tongmu=0;i=1;n=int(input())
+#while i<=n:
+#    tong+=i;tich*=i;tongmu+=i**2;i+=1
+#print(tong,tich,tongmu)
 
 
 #Bài 4:
-#t,n = (int(x) for x in input().split())
-#i = t
+#t,n=(int(x) for x in input().split());i=t
 #while i<n:
-#    i += t
-#    print(i,end=" ")
+#    i+=t;print(t,i,end=" ")
 
 
 #Bài 5:
-#n=int(input())
-#tong = 0
+#n=int(input());tong=0
 #while n>0:
-#    tong += n%10
-#    n//=10
+#    tong+=n%10;n//=10  
 #print(tong)
