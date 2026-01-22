@@ -114,7 +114,6 @@
 
 # Nhập tháng, năm, tính số ngày của tháng đó
 # thang, nam = (int(x) for x in input().split())
-# thang, nam = (int(x) for x in input().split())
 # if thang < 1 or thang > 12:
 #     print("Thang khong hop le")
 # else:
